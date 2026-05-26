@@ -16,6 +16,22 @@ dist/
 client/dist/
 server/dist/
 
+# === Python (venv, bytecode) ===
+.venv/
+venv/
+**/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
 # === Env / local config ===
 # (rất quan trọng)
 .env
